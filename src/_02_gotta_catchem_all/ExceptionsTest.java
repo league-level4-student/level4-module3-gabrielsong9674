@@ -10,7 +10,7 @@ class ExceptionsTest {
 	
 	//1. This is an example of how one might test that an exception is thrown.
 	//   It tests that an IndexOutOfBoundsException is thrown 
-	/*@Test
+	@Test
 	public void testIndexOOBException() {
 		int[] vars = {0, 1, 2, 3};
 			
@@ -47,7 +47,7 @@ class ExceptionsTest {
 	//   if the String passed in is empty
 	
 	//5. Complete the JUnit test method to test the reverseStringMethod.
-	*/@Test
+	@Test
 	public void testReverseString() {
 		try {
 			ExceptionMethods.reverseString("hello");
